@@ -1,0 +1,83 @@
+body{
+    color: white;
+    background-image: url('img/vip.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500vh;
+}
+.left{
+    position: absolute;
+    
+    left: 34px;
+    top: 20px;
+    
+    display: inline-block;
+}
+.left img{
+    width: 70px;
+}
+.mid{
+    display: block;
+    width: 33%;
+    margin: 20px auto;
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 20px;
+
+    display: inline block;
+}
+.navbar{
+    display: inline block;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 8px 8px;
+    font-size: 15px;
+}
+.navbar li a:hover,active{
+    color: grey;
+    text-decoration: underline;
+}
+.btn{
+    margin: 0px 10px;
+    color: white;
+    background-color: black;
+    padding: 2px 8px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(157, 161, 164);
+}
+.container{
+    
+    position: fixed;
+    margin: 37px 62px;
+    padding:43px 67px;
+    width: 33%;
+    border-radius:2px ;
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    display: block;
+    width: 20%;
+    margin: auto;
+    padding: 3px 12px;
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    margin: 5px 80px;
+    width: 50%;
+    padding: 8px;
+    border: 6px solid black;
+    border-radius: 12px;
+
+}
